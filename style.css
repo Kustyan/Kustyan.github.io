@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #4400d8;
+    color: blue;
     text-decoration: none;
     transition: all .2s;
 }
@@ -104,11 +104,15 @@ a:visited {
 
 
 .table th {
+    border-style: ridge;
+    border-bottom: 4px solid rgb(0, 0, 0);
     font-size: x-large;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .table td {
+    border-style: ridge;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -141,11 +145,9 @@ footer {
     width: 320px;
     background: #ffffff;
     border-radius: 10px;
-  
     font-size: 18px;
     line-height: 1.4;
-  
-    color: #222bd0;
+    color: blue;
     text-decoration: none;
   }
   
