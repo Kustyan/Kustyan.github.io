@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #0f141e;
+    background: #f1f1f1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    color: #4400d8;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 26px;
+
+}
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: gray;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 320px;
+    height: 350px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+
+}
+
+.info {
+    margin-bottom: 100px;
+    display: flex;
+   
+}
+
+.info-text {
+    margin-left: 50px;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 8px;
+}
+
+
+.card {
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    
+}
+.card h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-yellow h2 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.bg-red h2 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+.table {
+    width: 100%;
+    font-size: large;
+}
+
+
+.table th {
+    font-size: x-large;
+    padding-top: 20px;
+}
+
+.table td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+.link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+footer {
+    margin: 0 0 50px 0;
+  }
+  .button-link {
+    margin: auto;
+    margin-top: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 320px;
+    background: #ffffff;
+    border-radius: 10px;
+  
+    font-size: 18px;
+    line-height: 1.4;
+  
+    color: #222bd0;
+    text-decoration: none;
+  }
+  
+  button {
+    border: 0;
+    cursor: pointer;
+  }
+
+  .button-link:hover {
+    opacity: .8;
+    font-size: 18px;
+    transition: all .2s;
+    font-weight: bolder;
+}
+
